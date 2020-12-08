@@ -2,23 +2,19 @@
 layout: default
 ---
 
+<div class='o-wrapper'>
 
-<section>
-    <div class="section-title">
-        <h2><span>{{ page.title }}</span></h2>
-    </div>
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--3-4-m o-grid__col--center'>
+      <article class='c-post'>
+        <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
 
-    <div class="article-post">
-    {{content}}
-    </div>
-
-    {% if page.comments == true %}
-
-    <div id="comments" class="row mb-5">
-        <div class="col-md-8">
-            {% include disqus.html %}
+        <div class='c-content'>
+          {% include page-image.html %}
+          {{ content }}
         </div>
+      </article>
     </div>
+  </div>
 
-    {% endif %}
-</section>
+</div>
