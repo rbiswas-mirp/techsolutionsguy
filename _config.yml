@@ -3,7 +3,7 @@ name: "Tech Solutions Guy"
 title: "Tech Solutions Guy"
 description: "Tech Solutions Guy is a blog which provides Android and Windows related problem solutions"
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo2.png'
+favicon: 'assets/images/logo.png'
 baseurl: ''
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'demowebsite'
