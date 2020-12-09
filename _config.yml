@@ -56,6 +56,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
+
+    collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:date/:title/
     
 # Pagination 
 paginate: 6
