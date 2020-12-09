@@ -37,33 +37,33 @@ Let’s look into each one, step by step on how to turn off Windows Defender.
 Turn off Windows Defender through settings:
 This is one of the fastest and easiest ways to disable Windows Defender. All of the operations are going to be done through settings. Just follow these steps:
 
-1. Open Start by clicking on the Windows logo on the bottom left of your screen.
+* Open Start by clicking on the Windows logo on the bottom left of your screen.
 
-2. On the Start menu, locate and click on Open Settings by clicking on the gear-shaped icon on the left panel.
+* On the Start menu, locate and click on Open Settings by clicking on the gear-shaped icon on the left panel.
 
 ![Windows Settings](/assets/images/1.png)
 
-3. Windows Settings will open up. Proceed by clicking on Update & Security. It will be the last option.
+* Windows Settings will open up. Proceed by clicking on Update & Security. It will be the last option.
 
 ![Windows Settings](/assets/images/2-1024x548.png)
 
-4. Next, proceed by clicking on Windows Security on the left side panel.
+* Next, proceed by clicking on Windows Security on the left side panel.
 
 ![Windows Settings](/assets/images/3.png)
 
-5. Under Protection Areas, click on Virus & threat protection.
+* Under Protection Areas, click on Virus & threat protection.
 
 ![Windows Settings](/assets/images/4-1024x548.png)
 
-6. The Virus & threat protection Window will open up. Under Virus & threat protection settings, proceed by clicking on Manage settings.
+* The Virus & threat protection Window will open up. Under Virus & threat protection settings, proceed by clicking on Manage settings.
 
 ![Windows Settings](/assets/images/5-1024x542.png)
 
-7. Real time protection will be the first option in front of you. Under real time protection, click on the blue ON switch.
+* Real time protection will be the first option in front of you. Under real time protection, click on the blue ON switch.
 
 ![Windows Settings](/assets/images/6-1024x549.png)
 
-8. Windows will prompt you if you want to make the change. Click on Yes. You’ll see the message stating that real time protection is off, an indication that you have successfully turned off the Windows Defender.
+* Windows will prompt you if you want to make the change. Click on Yes. You’ll see the message stating that real time protection is off, an indication that you have successfully turned off the Windows Defender.
 
 ![Windows Settings](/assets/images/7-1024x545.png)
 
@@ -76,13 +76,13 @@ The benefit of turning off real time protection through virus threat protection 
 This is a bit of lengthy process to disable Windows Defender:
  Follow these steps to permanently disable Windows Defender through Registry.
 
-1. Open Start, by clicking on the Windows logo on the bottom left of your screen.
+* Open Start, by clicking on the Windows logo on the bottom left of your screen.
 
-2. Type “Regedit” in the search bar, and proceed by clicking on the Registry Editor with the blue icon. Click on yes when prompted by Windows.
+* Type “Regedit” in the search bar, and proceed by clicking on the Registry Editor with the blue icon. Click on yes when prompted by Windows.
 
 ![Windows Settings](/assets/images/8.png)
 
-3. The registry editor will open.  On the left side, you’ll see different options. You need to locate to Microsoft Defenders location, by expanding the following:
+* The registry editor will open.  On the left side, you’ll see different options. You need to locate to Microsoft Defenders location, by expanding the following:
 
 * First, expand the “HKEY_LOCAL_MACHINE” folder by double-clicking on it.
 * Next, expand the “SOFTWARE” folder.
@@ -92,23 +92,23 @@ This is a bit of lengthy process to disable Windows Defender:
 
 ![Windows Settings](/assets/images/9.png)
 
-4. Now, right-click on the “Microsoft Defender” folder and hover your cursor above “New.” A new menu will pop out. Proceed by clicking on “DWORD (32-bit) Value”.
+* Now, right-click on the “Microsoft Defender” folder and hover your cursor above “New.” A new menu will pop out. Proceed by clicking on “DWORD (32-bit) Value”.
 
 ![Windows Settings](/assets/images/10.png)
 
-5. A new file will appear on the right side with the option to name it. Enter “DisableAntiSpyware” as the name and hit Enter.
+* A new file will appear on the right side with the option to name it. Enter “DisableAntiSpyware” as the name and hit Enter.
 
 ![Windows Settings](/assets/images/11.png)
 
-6. Next, double click on the newly created “DisableAntiSpyware” file.
+* Next, double click on the newly created “DisableAntiSpyware” file.
 
-7. Edit the value under “Value data:” as 1.
+* Edit the value under “Value data:” as 1.
 
 ![Windows Settings](/assets/images/12.png)
 
-8. Press “Ok” on the bottom to save the value.
+* Press “Ok” on the bottom to save the value.
 
-9. Finally, restart your system for the changes to take place. After restarting, the Microsoft Windows Defender will be disabled successfully.
+* Finally, restart your system for the changes to take place. After restarting, the Microsoft Windows Defender will be disabled successfully.
 
 **If anytime you want to enable the Windows Defender again, follow these steps:**
 
@@ -125,31 +125,31 @@ This method is a bit tricky and lengthy, but this will disable Windows Defender 
 This is our last instruction set to disable Windows Defender.
  Follow these steps to turn off Windows Defender permanently:
 
-1. Press “Win + R,” Window key, plus the “R” key together.
+* Press “Win + R,” Window key, plus the “R” key together.
 
-2. A dialogue box will appear. Type in “gpedit.msc” and hit Enter.
+* A dialogue box will appear. Type in “gpedit.msc” and hit Enter.
 
-3. The local group policy editor Window will open in front of you.
+* The local group policy editor Window will open in front of you.
 
 ![Windows Settings](/assets/images/13.png)
 
-4. Under “Computer Configuration,” double-click on “Administrative Templates.”
+* Under “Computer Configuration,” double-click on “Administrative Templates.”
 
-5. Next, click on “Windows Components” to expand it.
+* Next, click on “Windows Components” to expand it.
 
-6. Scroll down, locate, and click on “Windows Defender Antivirus.”
+* Scroll down, locate, and click on “Windows Defender Antivirus.”
 
 ![Windows Settings](/assets/images/14.png)
 
-7. On the right side, double-click on “Turn off Windows Defender Antivirus.”
+* On the right side, double-click on “Turn off Windows Defender Antivirus.”
 
 ![Windows Settings](/assets/images/15.png)
 
-8. A new Window opens. Highlight the “Enabled” option on the left and click on Apply and then Ok.
+* A new Window opens. Highlight the “Enabled” option on the left and click on Apply and then Ok.
 
 ![Windows Settings](/assets/images/16.png)
 
-9. Finally, restart your computer for the changes to take effect.
+* Finally, restart your computer for the changes to take effect.
 
 **In case you need to enable Windows Defender again, follow steps 1 to 7, highlight the “Not Configured,” click on Apply and then Ok. Restart your computer, and Windows Defender will be enabled again.**
 
