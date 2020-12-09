@@ -10,7 +10,7 @@ disqus: 'techsolutionsguy'
 mailchimp-list: 'https://techsolutionsguy.us7.list-manage.com/subscribe/post?u=77d3a7855d73283137101f5c5&amp;id=90a28b84f9'
 include: ["_pages"]
 permalink: /:title/
-email: biswasrahul016@gmail.com
+email: info@techsolutionsguy.com
 
 # Authors
 authors:
