@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Stop Windows 10 Auto-Updates"
-author: Rahul Biswas
+author: rahul
 categories: [ Windows ]
 image: assets/images/How-to-Stop-Windows 10-Auto-Updates.jpg
 ---
