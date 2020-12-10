@@ -13,7 +13,7 @@ Google Play services has stopped is actually a common problem that can come to a
 
 Having a problem with your Google Play app is not the end of the world. In fact, this problem can be solved in easy ways so that you don’t need to call your techy friends. Below, you are about to find 6 easy and practical methods to fix Google Play services that keeps stopping. Let’s check it out!
 
-#### * Restart Smartphone
+#### 1. Restart Smartphone
 
 ![Restart Smartphone](/assets/images/Restart-Android.jpg)
 
@@ -21,7 +21,7 @@ Restart is the first troubleshooting that comes across users’ minds when somet
 
 After turning off and on, check if the problem persists. When you find the problem remains there, you may need to try the next method to get rid of Google Play that keeps stopping.
 
-#### * Clear cache
+#### 2. Clear cache
 
 You may not realize that there is a cache buildup in your Google Play app which causes a variety of issues, including the services that keep stopping. Clearing the cache can give you an unexpected result as it makes your app feel fresh. Aside from clearing the cache, you also need to clear the data to make it run optimally.
 
@@ -35,7 +35,7 @@ However, you should note that this method comes with consequences. While clearin
 
 Now your phone should feel fresh. Repeat the steps to clear cache for Google Play Store to make your app perform optimally.
 
-#### * Uninstall updates
+#### 3. Uninstall updates
 
 Google Play services commonly updates automatically in the background. Sometimes, the updates goes wrong and cause problems in your application. Therefore, you need to uninstall updates to bring it to the factory version. After uninstalling updates, your phone is forced to update automatically and fix the issue. Follow this instruction below to uninstall updates.
 
@@ -47,7 +47,7 @@ Google Play services commonly updates automatically in the background. Sometimes
 
 Try to access your Google Play services and check if the problem is fixed.
 
-#### * Reset app preferences
+#### 4. Reset app preferences
 
 Resetting app preferences can be performed if the problem exists even after you change a system setting, chances are that you need. You should know that Google Play services has core system files, in which even a small change may affect its performance. Therefore, try to reset app preferences on your phone.
 
@@ -60,7 +60,7 @@ Resetting app preferences won’t affect your data. However, several things will
 
 After resetting app preferences, try to access your Google Play services. Though many users reported that this solution is effective, the result may vary. If problem persists, try the other methods.
 
-#### * Set the date and time
+#### 5. Set the date and time
 
 Even a simple thing like wrong date and time can cause problems in your Google Play services. If you find that the date and time on the phone is not correct, you need to fix it and see how it affects your Google Play services. To set the date and time on your Android smartphone, you need to follow the steps below.
 
@@ -72,7 +72,7 @@ Even a simple thing like wrong date and time can cause problems in your Google P
 
 You might think that date and time has nothing to do with Google Play services keeps stopping. In fact, incorrect date and time can cause a number of issues including app performance.
 
-#### * Update your phone
+#### 6. Update your phone
 
 Last but not least, try to update your phone if the problem persists. This may be the last thing that comes to your mind, but updating your smartphone is worth trying. It is effective to fix several issues, including app issues. Follow the steps below.
 
